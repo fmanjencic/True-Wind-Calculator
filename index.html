@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Old Favicon - Grab Icon From Google (Might be unsupported in the future) -->
+    <!-- <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=jacinto.design"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Maxwell's Truewind<br>Calculator</h1>
+    </div>
+
+    <div id="shipcontainer">
+        <img  id="shippic" src='https://icons-for-free.com/iconfiles/png/512/sea+ship+icon-1320136430337006920.png'>
+    </div>
+
+    <div id="mainbutton"><a href=#main-container><button><img src="https://www.pngkey.com/png/full/50-508006_open-down-arrow-icon-blue.png"></button></a></div>
+
+    <!-- Calcutor Section -->
+    <div id="main-container">
+        <div id="inputs">
+            <h4>Ship's Course: </h4>
+            <input type="text" id="shipsCourse">
+            <h4>Ship's Speed: </h4>
+            <input type="text" id="shipsSpeed">
+            <h4>Relative Wind Speed: </h4>
+            <input type="text" id="relativeWindSpeed">
+            <h4>Relative Wind: </h4>
+            <input type="text" id="relativeWind">
+            <div><a href=#finalValue><button id="calc-button">Calulate</button></a><span id="padding"></span><a href=#main-container><button id="reset-button">Reset</button></a></div><hr>
+            <h3>True Wind Speed:</h3>
+            <p id=trueWindFinal></p>
+            <h3>True Wind:</h3>
+            <p id="finalValue"></p>
+        </div>
+        
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <a href=#header><img src="https://icon-library.com/images/shift-icon/shift-icon-26.jpg">
+    </a>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
